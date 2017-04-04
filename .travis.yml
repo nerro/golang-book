@@ -1,9 +1,11 @@
 sudo: false
-
 language: go
 
 go:
-- 1.8
+  - 1.8
 
 script:
-- make all
+  - make all
+
+notifications:
+  email: false
